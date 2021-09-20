@@ -424,14 +424,6 @@ ul {
   margin: 1rem 0;
 }
 
-@media screen and (min-width: 1101px) {
-  .hosting {
-    display: grid;
-    column-gap: 2rem;
-    grid-template-columns: 6fr 3fr;
-  }
-}
-
 @media screen and (max-width: 650px) {
   .header {
     grid-template-columns: auto 1fr auto;
