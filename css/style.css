@@ -526,6 +526,14 @@ ul {
   }
 }
 
+@media screen and (min-width: 1101px) {
+  .hosting {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+  }
+}
+
 @media screen and (min-width: 650px) and (max-width: 1100px) {
   .hostingMain,
   .activity {
